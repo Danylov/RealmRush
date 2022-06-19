@@ -136,7 +136,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  speed: 0.38
+  speed: 1.29
 --- !u!114 &2777916374795252798
 MonoBehaviour:
   m_ObjectHideFlags: 0
