@@ -40,17 +40,17 @@ PrefabInstance:
     - target: {fileID: 6677310559962132763, guid: 9bfc966b6fd687640999ee5d73e9d11c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.1927776
       objectReference: {fileID: 0}
     - target: {fileID: 6677310559962132763, guid: 9bfc966b6fd687640999ee5d73e9d11c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -23.441181
       objectReference: {fileID: 0}
     - target: {fileID: 6677310559962132763, guid: 9bfc966b6fd687640999ee5d73e9d11c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 27.247864
       objectReference: {fileID: 0}
     - target: {fileID: 6677310559962132763, guid: 9bfc966b6fd687640999ee5d73e9d11c,
         type: 3}
@@ -60,17 +60,17 @@ PrefabInstance:
     - target: {fileID: 6677310559962132763, guid: 9bfc966b6fd687640999ee5d73e9d11c,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6677310559962132763, guid: 9bfc966b6fd687640999ee5d73e9d11c,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6677310559962132763, guid: 9bfc966b6fd687640999ee5d73e9d11c,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6677310559962132763, guid: 9bfc966b6fd687640999ee5d73e9d11c,
         type: 3}
@@ -90,7 +90,12 @@ PrefabInstance:
     - target: {fileID: 6677310559962132836, guid: 9bfc966b6fd687640999ee5d73e9d11c,
         type: 3}
       propertyPath: m_Name
-      value: Tile_RoadCorner90
+      value: (2, 3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677310560281876537, guid: 9bfc966b6fd687640999ee5d73e9d11c,
+        type: 3}
+      propertyPath: m_text
+      value: 2,3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bfc966b6fd687640999ee5d73e9d11c, type: 3}

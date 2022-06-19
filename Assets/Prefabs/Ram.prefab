@@ -92,6 +92,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5672325927823913723}
   - component: {fileID: 7100337842680016978}
+  - component: {fileID: 2777916374795252798}
+  - component: {fileID: 5576827826595821826}
   m_Layer: 0
   m_Name: Ram
   m_TagString: Untagged
@@ -106,7 +108,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5040643765344069697}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -126,5 +128,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5684ecb64acbe24d817b9654428badb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path: []
-  waitTime: 1
+  path:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  speed: 0.38
+--- !u!114 &2777916374795252798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5040643765344069697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a747952ccd35b084fa1fdebc814b6a7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHitPoins: 5
+--- !u!65 &5576827826595821826
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5040643765344069697}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.1348085, y: 4.234608, z: 5.350846}
+  m_Center: {x: -0.021327496, y: 2.359204, z: 0.023405313}
