@@ -28,6 +28,7 @@ public class CoordinateLaberer : MonoBehaviour
         {
             DisplayCoordinates();
             UpdateObjectName();
+            label.enabled = true;
         }
         SetLabelColor();
         ToggleLabels();
